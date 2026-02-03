@@ -1,0 +1,312 @@
+@import "tailwindcss";
+
+/* ========================================
+   LYNCS DESIGN SYSTEM
+   Premium Fintech-grade UI
+   ======================================== */
+
+:root {
+  /* Primary Colors - Navy/Dark Blue */
+  --lyncs-navy: #1a1f36;
+  --lyncs-navy-light: #252b48;
+  --lyncs-navy-dark: #0d1021;
+  
+  /* Accent Colors */
+  --lyncs-blue: #4a7fff;
+  --lyncs-blue-light: #6b9aff;
+  --lyncs-blue-dark: #3a6ae8;
+  
+  /* Neutral Colors */
+  --lyncs-white: #ffffff;
+  --lyncs-gray-50: #f8fafc;
+  --lyncs-gray-100: #f1f5f9;
+  --lyncs-gray-200: #e2e8f0;
+  --lyncs-gray-300: #cbd5e1;
+  --lyncs-gray-400: #94a3b8;
+  --lyncs-gray-500: #64748b;
+  --lyncs-gray-600: #475569;
+  --lyncs-gray-700: #334155;
+  --lyncs-gray-800: #1e293b;
+  --lyncs-gray-900: #0f172a;
+  
+  /* Status Colors */
+  --lyncs-success: #22c55e;
+  --lyncs-success-light: #dcfce7;
+  --lyncs-warning: #f59e0b;
+  --lyncs-warning-light: #fef3c7;
+  --lyncs-error: #ef4444;
+  --lyncs-error-light: #fee2e2;
+  --lyncs-info: #3b82f6;
+  --lyncs-info-light: #dbeafe;
+  
+  /* Gradient Colors */
+  --lyncs-gradient-start: #1a1f36;
+  --lyncs-gradient-end: #0d1021;
+  --lyncs-purple-gradient-start: #7c3aed;
+  --lyncs-purple-gradient-end: #a855f7;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-card: 0 2px 8px -2px rgb(0 0 0 / 0.08), 0 4px 16px -4px rgb(0 0 0 / 0.08);
+  
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 9999px;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+  
+  /* Background */
+  --background: var(--lyncs-gray-50);
+  --foreground: var(--lyncs-gray-900);
+  
+  /* Card */
+  --card-background: var(--lyncs-white);
+  --card-border: var(--lyncs-gray-200);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  /* Global font change applied here */
+  /* Added: Quicksand as primary font-family */
+  --font-sans: var(--font-quicksand), system-ui, -apple-system, sans-serif;
+  
+  /* Custom Colors */
+  --color-lyncs-navy: var(--lyncs-navy);
+  --color-lyncs-navy-light: var(--lyncs-navy-light);
+  --color-lyncs-navy-dark: var(--lyncs-navy-dark);
+  --color-lyncs-blue: var(--lyncs-blue);
+  --color-lyncs-blue-light: var(--lyncs-blue-light);
+  --color-lyncs-blue-dark: var(--lyncs-blue-dark);
+  --color-lyncs-success: var(--lyncs-success);
+  --color-lyncs-success-light: var(--lyncs-success-light);
+  --color-lyncs-warning: var(--lyncs-warning);
+  --color-lyncs-warning-light: var(--lyncs-warning-light);
+  --color-lyncs-error: var(--lyncs-error);
+  --color-lyncs-error-light: var(--lyncs-error-light);
+}
+
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Focus States */
+*:focus-visible {
+  outline: 2px solid var(--lyncs-blue);
+  outline-offset: 2px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lyncs-gray-100);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--lyncs-gray-300);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lyncs-gray-400);
+}
+
+/* Button Reset */
+/* button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+} */
+
+/* Link Reset */
+/* a {
+  color: inherit;
+  text-decoration: none;
+} */
+
+/* Input Reset */
+/* input, textarea, select {
+  font-family: inherit;
+  font-size: inherit;
+} */
+
+/* Transition Utilities */
+/* .transition-smooth {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.transition-bounce {
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+} */
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-soft {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.4s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.4s ease-out forwards;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Card Styles */
+/* .card-premium {
+  background: var(--card-background);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-card);
+  transition: all 0.2s ease;
+}
+
+.card-premium:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+} */
+
+/* Glass Effect */
+/* .glass {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+
+.gradient-navy {
+  background: linear-gradient(135deg, var(--lyncs-navy) 0%, var(--lyncs-navy-dark) 100%);
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, var(--lyncs-blue) 0%, var(--lyncs-blue-dark) 100%);
+} */
+
+.gradient-purple {
+  background: linear-gradient(135deg, var(--lyncs-purple-gradient-start) 0%, var(--lyncs-purple-gradient-end) 100%);
+}
+
+/* 🔧 CHANGED: marquee animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+}
+
+/* 🔧 NEW: infinite scroll for specific action cards */
+@keyframes marquee-slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee-slide {
+  animation: marquee-slide 15s linear infinite;
+}
+
