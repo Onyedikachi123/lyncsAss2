@@ -1,0 +1,34 @@
+{
+  "app": {
+    "[project]/app/_not-found/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ],
+    "[project]/app/dashboard/bus-transit/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ],
+    "[project]/app/dashboard/flights/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ],
+    "[project]/app/dashboard/my-staff/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ],
+    "[project]/app/dashboard/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ],
+    "[project]/app/dashboard/rides/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ],
+    "[project]/app/dashboard/staff-usage/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ],
+    "[project]/app/dashboard/wallet/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ],
+    "[project]/app/page": [
+      "static/media/4a7551bcc3548e67-s.p.717db902.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

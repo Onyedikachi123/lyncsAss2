@@ -79,15 +79,15 @@ export const mockApprovals: Approval = {
 };
 
 // Mock Staff Members
-export const mockStaffMembers = [
-    { id: "1", avatarUrl: "/33.jpg" },
-    { id: "2", avatarUrl: "/33.jpg" },
-    { id: "3", avatarUrl: "/33.jpg" },
-    { id: "4", avatarUrl: "/33.jpg" },
-    { id: "5", avatarUrl: "/33.jpg" },
-    { id: "6", avatarUrl: "/33.jpg" },
-    { id: "7", avatarUrl: "/33.jpg" },
-    { id: "8", avatarUrl: "/33.jpg" },
+export const mockStaffMembers: StaffMember[] = [
+    { id: "1", name: "Faithful Odigbo", initials: "FO", avatarUrl: "/33.jpg" },
+    { id: "2", name: "John Doe", initials: "JD", avatarUrl: "/33.jpg" },
+    { id: "3", name: "Jane Smith", initials: "JS", avatarUrl: "/33.jpg" },
+    { id: "4", name: "Michael Roberts", initials: "MR", avatarUrl: "/33.jpg" },
+    { id: "5", name: "Sarah Connor", initials: "SC", avatarUrl: "/33.jpg" },
+    { id: "6", name: "David Kim", initials: "DK", avatarUrl: "/33.jpg" },
+    { id: "7", name: "Emily White", initials: "EW", avatarUrl: "/33.jpg" },
+    { id: "8", name: "Robert Johnson", initials: "RJ", avatarUrl: "/33.jpg" },
 ];
 
 // Mock Wallet Data

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dashboard/layout,_N_T_/dashboard/bus-transit/layout,_N_T_/dashboard/bus-transit/page,_N_T_/dashboard/bus-transit"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/dashboard/bus-transit/__PAGE__",
+    "/dashboard/bus-transit",
+    "/dashboard",
+    "/_index",
+    "/_head"
+  ]
+}

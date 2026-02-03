@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/dashboard/bus-transit/page": "app/dashboard/bus-transit/page.js",
+  "/dashboard/flights/page": "app/dashboard/flights/page.js",
+  "/dashboard/my-staff/page": "app/dashboard/my-staff/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/rides/page": "app/dashboard/rides/page.js",
+  "/dashboard/staff-usage/page": "app/dashboard/staff-usage/page.js",
+  "/dashboard/wallet/page": "app/dashboard/wallet/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

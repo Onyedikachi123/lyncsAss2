@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/dashboard/bus-transit/page": "/dashboard/bus-transit",
+  "/dashboard/flights/page": "/dashboard/flights",
+  "/dashboard/my-staff/page": "/dashboard/my-staff",
+  "/dashboard/page": "/dashboard",
+  "/dashboard/rides/page": "/dashboard/rides",
+  "/dashboard/staff-usage/page": "/dashboard/staff-usage",
+  "/dashboard/wallet/page": "/dashboard/wallet",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}

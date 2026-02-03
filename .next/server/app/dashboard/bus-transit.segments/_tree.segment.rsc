@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/bf339f1bf312e658.css","style"]
+:HL["/_next/static/media/4a7551bcc3548e67-s.p.717db902.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"mNdV6XbapdwboejMICRji","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"dashboard","paramType":null,"paramKey":"dashboard","hasRuntimePrefetch":false,"slots":{"children":{"name":"bus-transit","paramType":null,"paramKey":"bus-transit","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
