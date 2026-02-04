@@ -48,7 +48,7 @@ export function LoginForm() {
     return (
         <div className="min-h-screen flex">
             {/* Left Side - Login Form */}
-            <div className="flex-1 flex items-center justify-center bg-white px-52">
+            <div className="flex-1 flex items-center justify-center bg-white px-6 md:px-12 lg:px-20 xl:px-52">
                 <div className="w-full max-w-[500px]">
                     {/* Logo */}
                     <div>

@@ -17,7 +17,7 @@ export function Header() {
     //     : "G";
 
     return (
-        <header className="sticky top-0 z-30 bg-white border border-[#e2e8f0] px-4 lg:px-6 py-2 rounded-2xl mt-3 mx-5">
+        <header className="sticky top-0 z-30 bg-white border border-[#e2e8f0] px-4 lg:px-6 py-2 rounded-2xl mt-3 mx-3 lg:mx-5">
             <div className="flex items-center justify-between">
                 {/* Left Side - Mobile Menu + Title */}
                 <div className="flex items-center gap-4">

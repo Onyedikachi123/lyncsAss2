@@ -24,7 +24,7 @@ export function ShareConnectionCard() {
         // share-connection-card component changes were made here
         // Added: rounded-none to remove border radius completely
         // Removed: default roundin
-        <Card className="bg-[#f0f6ff] border-[#e2e8f0] transition-all duration-200 rounded-[5px] shadow-none mb-[90px]">
+        <Card className="bg-[#f0f6ff] border-[#e2e8f0] transition-all duration-200 rounded-[5px] shadow-none mb-4 lg:mb-[90px]">
             {/* 
                 share-connection-card component changes were made here
                 Added: px-5 py-3 to reduce vertical size

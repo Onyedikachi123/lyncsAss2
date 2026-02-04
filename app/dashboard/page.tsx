@@ -33,14 +33,14 @@ export default function DashboardPage() {
             </h1>
 
             {/* Top Row - Share Connection + Wallet + Flights Booking */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 lg:gap-3">
                 <ShareConnectionCard />
                 <WalletBalanceCard />
                 <FlightsBookingCard />
             </div>
 
             {/* Middle Row - Trips + Approvals + Action Cards */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 lg:gap-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-4 lg:gap-3">
                 {/* Trips Card */}
                 <TripsCard />
 

@@ -14,7 +14,7 @@ export function ApprovalsCard() {
     const [showFilterMenu, setShowFilterMenu] = useState(false);
 
     return (
-        <Card className="bg-white border-[#e2e8f0] hover:shadow-lg transition-all duration-200 rounded-[5px] -mt-10 mb-8">
+        <Card className="bg-white border-[#e2e8f0] hover:shadow-lg transition-all duration-200 rounded-[5px] lg:-mt-10 mb-8">
             <CardContent className="p-5">
                 {/* Count with Label */}
                 <div className="flex items-start gap-2 mb-4">

@@ -32,7 +32,7 @@ export default function MyStaffPage() {
                         {mockStaffMembers.map((staff) => (
                             <div
                                 key={staff.id}
-                                className="flex items-center justify-between p-4 rounded-xl bg-[#f8fafc] hover:bg-[#f1f5f9] transition-colors"
+                                className="flex flex-col sm:flex-row sm:items-center justify-between p-4 rounded-xl bg-[#f8fafc] hover:bg-[#f1f5f9] transition-colors"
                             >
                                 <div className="flex items-center gap-4">
                                     <Avatar className="w-12 h-12">
@@ -46,7 +46,7 @@ export default function MyStaffPage() {
                                     </div>
                                 </div>
 
-                                <div className="flex items-center gap-3">
+                                <div className="flex items-center gap-3 mt-4 sm:mt-0 self-end sm:self-auto">
                                     <Badge variant="success">Active</Badge>
                                     <div className="flex gap-2">
                                         <Button variant="ghost" size="icon" className="w-9 h-9">

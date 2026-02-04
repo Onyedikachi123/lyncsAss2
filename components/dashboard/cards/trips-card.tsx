@@ -40,7 +40,7 @@ export function TripsCard() {
     };
 
     return (
-        <Card className="bg-white border-[#e2e8f0] hover:shadow-lg transition-all duration-200 -mt-24 rounded-[5px] mb-8">
+        <Card className="bg-white border-[#e2e8f0] hover:shadow-lg transition-all duration-200 lg:-mt-24 rounded-[5px] mb-8">
             <CardContent className="px-5 pt-5">
                 {/* Header */}
                 <div className="flex items-center justify-between mb-4">
